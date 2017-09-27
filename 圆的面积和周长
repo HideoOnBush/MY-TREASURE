@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	double radius,area,perimeter;
+	cout<<"radius is:";
+	cin>>radius;
+	const double pi=3.1415926;
+	area=pi*radius*radius;
+	perimeter=2*pi*radius;
+	cout<<"area is:"<<area<<'\n';
+	cout<<"perimeter is:"<<perimeter<<'\n';	
+	return 0;
+ } 
