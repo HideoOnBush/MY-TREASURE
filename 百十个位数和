@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x,a,b,c,d;
+	cout<<"��������λ��:";cin>>x;
+	a=x/100;
+	b=(x/10)%10;
+	c=(x%100)%10;
+	d=a+b+c;
+	cout<<"��ʮ��λ����:"<<d<<'\n'; 
+	 return 0;
+ } 
